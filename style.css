@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    display:grid;
+    place-items:center;/*o place itens serve para quando se quer alinhar os itens dentro de um contêiner no centro ou no final ou no inicio dele tanto no eixo das colunas quanto no eixo das linhas*/
+    height:100vh;
+    background-image: linear-gradient(to right, #280749,#04BBA5);
+}
+#img1 {
+    display: flex;
+    margin-top: -4%;
+    margin-left: 44%;
+    position: absolute;
+    z-index: 1;
+}
+#img2 {
+    display: flex;
+    margin-top: 11%;
+    margin-right: 55%;
+    position:absolute;
+    z-index: 2;
+}
+#card {
+    background-color:#ffffff32;
+    backdrop-filter: blur(6px);
+    border:0.7px solid #f1f1f131;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.26);
+    color: #FFFF;
+    font-family:"Inter";
+    font-size: 13px;
+    height: 450px;
+    width: 350px;
+    border-radius: 35px;
+    z-index: 2;
+    padding: 37px;
+    display: grid;
+    place-items: center;
+    text-align:center;
+    row-gap: 20px;
+}
+#botões {
+    display:flex;
+    gap: 25px;
+}
+.botão {
+    height:60px;
+    width:60px;
+    border-radius:60px;
+    border-style: none;
+    background-color:#f1f1f170;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botão:hover {
+    transform: scale(1.11);
+    transition:.6s ;
+}
+.icone {
+    width: 40px;
+}
