@@ -51,9 +51,7 @@ body {
     border-radius:60px;
     border-style: none;
     background-color:#f1f1f170;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 10px;
 }
 .botão:hover {
     transform: scale(1.11);
